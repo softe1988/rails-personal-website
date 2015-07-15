@@ -24,47 +24,67 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <h3>
-        h3. Lorem ipsum dolor sit amet.
-      </h3>
+      <header class="clearfix">
+    <div id="info">           
+        <h1><span itemprop="name">Simone Battiste-Alleyne</span></h1>
+        <h3><span itemprop="jobTitle"> Ruby on Rails Web Developer</span></h3>
+        <small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Charlotte</span>, 
+          <span itemprop="addressRegion">North Carolina</span>, 
+          <span itemprop="addressCountry">USA</span>
+        </small>
+        <small><span itemprop="email">softe1988@gmail.com</span></small>
+        <small><a href="" itemprop="url">My Portfolio</a> • <a href="http://twitter.com/blakgrad" itemprop="url">@blakgrad</a></small>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <iframe src="https://intense-depths-4585.herokuapp.com/">
-      
-    </iframe>
-
-    </div>
-    <div class="col-md-6">
-      <script>
-      var iframe = window.getElementsByTagName( "iframe" )[ 0 ];
-      alert( "Frame title: " + iframe.contentWindow.title );
-      </script>
-
-
-    <iframe src="https://intense-depths-4585.herokuapp.com" width="300" height="300">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <p>
-        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-      </p>
-    </div>
-    <div class="col-md-6">
-      <p>
-        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>
-        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-      </p>
+     
+   <!--  <div id="photo">
+        <img src="http://media02.hongkiat.com/responsive-resume/jake-rocheleau-250.jpg" alt="Jake Rocheleau resume photo avatar" itemprop="image" />
+    </div> -->
+</header>
+<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+    <h2 itemprop="name">Skillset</h2>
+    <section id="skills-left">
+        <h4 itemprop="about">Development</h4>
+        <ul>
+            <li itemprop="itemListElement">HTML5/CSS3</li>
+            <li itemprop="itemListElement">JavaScript & jQuery</li>
+            <li itemprop="itemListElement">Ruby on Rails</li>
+            <li itemprop="itemListElement">SQL/noSQL Databases</li>
+            <li itemprop="itemListElement">Ajax</li>
+            <li itemprop="itemListElement">APIs</li>
+            <li itemprop="itemListElement">Testing</li>
+        </ul>
+    </section>
+     
+    <section id="skills-right">
+        <h4 itemprop="about">My Stack</h4>
+        <ul>
+            <li itemprop="itemListElement">Ruby on Rails 4</li>
+            <li itemprop="itemListElement">Postgresql</li>
+            <li itemprop="itemListElement">iTerm</li>
+            <li itemprop="itemListElement">Sublime</li>
+            <li itemprop="itemListElement">Heroku</li>
+        </ul>
+    </section>
+      <section id="projects">
+      <h2>Recent Projects</h2>
+      <p itemscope itemtype="http://schema.org/WebPage">
+      <span itemprop="name">
+      <a href=" https://salty-anchorage-7994.herokuapp.com/" itemprop="url" title=">Twilio App">Twilio App</a></span></p>
+       
+      <p itemscope itemtype="http://schema.org/WebPage">
+      <span itemprop="name">
+      <a href="https://radiant-springs-2021.herokuapp.com/" itemprop="url" title="Weather App">Weather App</a></span></p>
+       
+      <p itemscope itemtype="http://schema.org/WebPage">
+      <span itemprop="name">
+      <a href="https://intense-depths-4585.herokuapp.com/" itemprop="url" title="Recipe App">Recipe App</a></span></p>
+       
+      <p itemscope itemtype="http://schema.org/WebPage">
+      <span itemprop="name">
+      <a href="https://warm-bayou-7784.herokuapp.com/ " itemprop="url" title="Ajax To-Do List">Ajax To-Do List</a></span></p>
+      </section>
+</section>
     </div>
   </div>
 </div>
