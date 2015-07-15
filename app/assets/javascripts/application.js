@@ -15,3 +15,11 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none',
+    iframe : {
+        preload: true
+    }
+});
