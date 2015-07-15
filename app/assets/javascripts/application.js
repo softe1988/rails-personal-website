@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require_tree .
+
 
 $(".fancybox").fancybox({
     openEffect  : 'none',
