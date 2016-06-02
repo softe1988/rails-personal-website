@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'pg'
-gem 'rails_12factor'
 gem 'bootswatch-rails'
 gem 'bootstrap-sass', '~> 3.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
