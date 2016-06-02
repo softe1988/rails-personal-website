@@ -1,19 +1,13 @@
 Rails.application.routes.draw do
   root 'static#index'
   
-  get "/contact" => "static#home"
+  get "/contact" => "static#contact"
   
   get "/about" => "static#about"
 
   get "/resume" => "static#resume"
 
-  get 'static/home' 
-
-  get 'static/about' 
-
-  get 'static/resume' 
-
-  get 'static/index' 
+  get "/projects" => "static#projects"
 
 
  

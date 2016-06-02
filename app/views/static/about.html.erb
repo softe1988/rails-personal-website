@@ -1,6 +1,5 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -8,55 +7,51 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" >NouveauNerd</a>
+      <a href= <%=root_path %> class="navbar-brand" >NouveauNerd</a>
     </div>
      
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'About', static_about_path %></li>
-		    <li><%= link_to 'Contact', static_home_path %></li>
-		    <li><%= link_to 'Resume', static_resume_path %></li>
-        <li><%= link_to 'Welcome', static_index_path %></li>
-        
+        <li><%= link_to 'About', about_path %></li>
+        <li><%= link_to 'Contact', contact_path %></li>
+        <li><%= link_to 'Resume', resume_path %></li>
+        <li><%= link_to 'Projects', projects_path %></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div>  
+  </div>
 </nav>
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
       <div class="row">
-        <div class="col-md-4">
-        </div>
         
-        <div class="col-md-4">
-        <div id = "headshot">
+        <div class="col-md-12">
+        <div id = "headshot" class = "center-block">
         </div>
         </div>  
           <blockquote>
             <p>
-              The Nouveau Nerd leverages a diverse background and non-traditional education to contribute a unique perspective to the industry and become a voice for the underepresented factions in technology.
+              The Nouveau Nerd leverages a diverse background and non-traditional education to contribute a unique perspective to the industry.
             </p> <small>Simone Battiste-Alleyne</small>
           </blockquote>
         
-        <div class="col-md-4">
-         
-        </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <p>
-            My Tech Journey started a bit later in life, but the sum of my life experiences has made me a better developer. I was working in a Technical Recruiting Role and wasn't feeling as challenged as I could be. I started thinking, is this all I can look forward to? I wondered, if I put in the work could I make an enormous change in my life and redirect my career trajectory? <b> I bet on myself and went for it </b>. I've been developing for a year now and the amount of growth I've experienced in all aspects of my life has been amazing. I've been able to:
+            My Tech Journey started a bit later in life, but the sum of my life experiences has made me a better developer. I was working in a Technical Recruiting Role and wasn't feeling as challenged as I could be. I started thinking, is this all I can look forward to? I wondered, if I put in the work could I make an enormous change in my life and redirect my career trajectory? <b> I bet on myself and went for it </b>. I've been developing for almost 2 years now and the amount of growth I've experienced in all aspects of my life has been amazing. I've been able to:
             <ul>
               <li> Live in a new state
               <li> Teach my first group of new Developers
               <li> Lead my first Meetup
+              <li> Start working as a consultant 
+              <li> Embrace Vim  
             </ul>  
           </p>
         </div>
         <div class="col-md-6">
           <p>
-            My Stack is Ruby on Rails, Postgres, Heroku, and Sublime. I'm also familiar with noSQL database MongoDB. In my learning queue is Python, DevOps, and Vagrant.
+            My day to day involves Ruby on Rails, Nodejs, React, Postgres, MySQL, AWS Lambda, S3 and API Gateway.
           </p>
         </div>
       </div>
